@@ -10,7 +10,6 @@ import { Car } from '../cars/entities/car.entity';
   imports: [
     TypeOrmModule.forFeature([User]),
     TypeOrmModule.forFeature([Car]),
-    CacheModule.register(),
   ],
   controllers: [UsersController],
   providers: [
